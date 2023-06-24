@@ -30,17 +30,17 @@ public class Main {
                 .filter(person -> person.getAge() < 27)
                 .map(Person::getFamily)
                 .toList();
-        System.out.println("" + listNames);
+        System.out.println("List of men in the military " + listNames);
 
 
-       // Collection<Person> workingPeople = persons.stream()
-               // .filter(person -> person.getAge() >= 18)
-              //  .filter(person -> person.getEducation().equals(Education.HIGHER))
-             //   .filter(person -> (person.getSex().equals(Sex.MAN) && person.getAge() <= 65) || (person.getSex().equals(Sex.WOMAN) && person.getAge() <= 60))
-             //   .sorted((o1, o2) -> o1.getFamily().compareToIgnoreCase(o2.getFamily()))
-             //   .toList();
-       // for(Person person : workingPeople){
-         //   System.out.println(person);
-      //  }
+        Collection<Person> workingPeople = persons.stream()
+                .filter(person -> person.getAge() >= 18)
+                .filter(person -> person.getEducation().equals(Education.HIGHER))
+                .filter(person -> (person.getSex().equals(Sex.MAN) && person.getAge() <= 65) || (person.getSex().equals(Sex.WOMAN) && person.getAge() <= 60))
+               .sorted((o1, o2) -> o1.getFamily().compareToIgnoreCase(o2.getFamily()))
+              .toList();
+        for(Person person : workingPeople){
+           System.out.println("Work able population with higher education " + person);
+        }
     }
 }

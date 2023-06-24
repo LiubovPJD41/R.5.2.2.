@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e0fef9d-b2a8-4913-9d42-42a7edb7afaa" name="Changes" comment="" />
+    <list default="true" id="4e0fef9d-b2a8-4913-9d42-42a7edb7afaa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../R.5.2.2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.5.2.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R.5.2.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.5.2.2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R.5.2.2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.5.2.2/src/gitignore" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +22,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../R.5.2.2" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RW6a9lU1h3a3VwT0U9GB8kPh5h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
